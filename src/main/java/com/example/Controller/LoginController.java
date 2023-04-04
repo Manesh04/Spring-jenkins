@@ -16,8 +16,11 @@ public class LoginController {
 
     @Autowired
     LoginService loginService;
-//    @Autowired
-//    LoginRepo loginRepo;
+
+    @GetMapping("/demo")
+    public String getData(){
+        return "SpringBootCRUD Service";
+    }
 
     @PostMapping("/saveDetails")
     public LoginDetails addLoginData(@Valid @RequestBody LoginDetails loginDetails){
