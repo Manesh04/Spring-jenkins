@@ -1,8 +1,8 @@
 package com.example.Service;
 
-import com.example.Entity.LoginDetails;
-import com.example.Payloads.LoginDetailsDTO;
-import com.example.Repository.LoginRepo;
+import com.example.entity.LoginDetails;
+import com.example.payloads.LoginDetailsDTO;
+import com.example.repository.LoginRepo;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
