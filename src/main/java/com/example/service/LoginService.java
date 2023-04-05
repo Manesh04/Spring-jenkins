@@ -1,4 +1,4 @@
-package com.example.Service;
+package com.example.service;
 
 import com.example.entity.LoginDetails;
 import com.example.payloads.LoginDetailsDTO;

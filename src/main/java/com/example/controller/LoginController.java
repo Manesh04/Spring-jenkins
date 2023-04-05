@@ -1,7 +1,7 @@
 package com.example.controller;
 
 import com.example.entity.LoginDetails;
-import com.example.Service.LoginService;
+import com.example.service.LoginService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
